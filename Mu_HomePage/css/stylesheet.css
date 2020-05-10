@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+}
+
+a:link {
+  color: #221000;
+}
+a:visited {
+  color: #221000;
+}
+a:hover {
+  color: #221000;
+}
+a:active {
+  color: #221000;
+}
+
+.wrapper{
+  background-color : #221000;/*黒*/
+}
+
+header{
+  background-color : #eee6d3;/*クリーム*/
+  display: flex;
+  border-bottom : ridge 5px #221000:
+  margin:10px 10px;
+  padding: 10px 10px;
+
+}
+header ul{
+
+}
+
+header ul a:link {
+  color: #000000;
+}
+header ul a:visited {
+  color: #000000;
+}
+header ul a:hover {
+  color: #000000;
+}
+header ul a:active {
+  color: #000000;
+}
+
+
+.container{
+  max-width: 1000px;
+  background-color : #eee6d3;/*クリーム*/
+  padding: 0 0;
+}
+._catch img{
+  width: 100%;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+._topics{
+  display: flex;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+@@media (max-width:600px/*ここを変えると切り替えるpx上限を変えられる*/) {
+  ./*TOPICSの配置変えるのに使える*/
+}
+
+._media{
+  display: flex;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+._youtube{
+  margin: 0px 10px 0px;
+}
+._twitter{
+  margin: 0px 10px 0px;
+}
+
+.container strong{
+  background-color : #f0831e;/*オレンジ*/
+
+}
+
+
+fotter{
+  background-color : #221000;/*黒*/
+  color : #000000;
+}
