@@ -160,12 +160,11 @@ header ul a:active {
 
 .main-container strong{
   background-color : #f0831e;/*オレンジ*/
-
 }
 
 
-fotter{
-
-  background-color : #221000;/*黒*/
+footer{
+  background-color : #000000;
   color : #ffffff;
+  width: 100%;
 }
