@@ -33,6 +33,14 @@ header{
 
 }
 
+.header-logo{
+  width: 40%;
+}
+.header-logo img{
+  width: 100%;
+  height: auto;
+}
+
 header ul a:link {
   color: #ffffff;
 }
