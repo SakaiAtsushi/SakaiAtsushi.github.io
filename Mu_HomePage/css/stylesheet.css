@@ -34,7 +34,7 @@ header{
 }
 
 .header-logo{
-  width: 40%;
+  width: 55%;
 }
 .header-logo img{
   width: 100%;
@@ -54,16 +54,29 @@ header ul a:active {
   color: #ffffff;
 }
 
+.nav-PC{
+  margin-top: 2%;
+}
+
 .navbar-toggler{
   color: #ffffff
 }
 
 .nav-mobile{
   display: none;
+
 }
 
 .nav-mobile span{
   color: #ffffff
+}
+/*.nav-mobile .navbar{
+  width: auto;
+  height: 100%;
+}*/
+
+.navbar-dark .navbar-toggler{
+  border-color:rgba(255, 255, 255, 0.1);
 }
 
 @media screen and (max-width: 768px) {
