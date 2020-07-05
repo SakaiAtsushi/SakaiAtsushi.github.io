@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mu Project</title>
+    <title>Home | Mu Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="東京を拠点に活動する男声合唱団 Mu Project/ムウプロのホームページです。">
     <meta name="keywords" content="男声,合唱団,男声合唱,音楽,社会人,大学生,歌,ムウプロ,ムー,ムープロ,ムウプロジェクト,Mu,Project">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/my_style.css">
     <script src="js/openclose.js"></script>
     <script src="js/fixmenu.js"></script>
     <script src="js/fixmenu_pagetop.js"></script>
@@ -101,8 +102,8 @@
 
               <h2>お知らせ<span>Information</span></h2>
               <dl>
-                <dt>2020/06/xx</dt>
-                  <dd>ホームページ公開。</dd>
+                <dt>2020/07/03</dt>
+                  <dd><a href="#mu-radi">ムウラジ＃4「全国大会反省会」公開！</a></dd>
                 <dt>20XX/00/00</dt>
                   <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
                 <!--
@@ -122,14 +123,21 @@
               <p><a href="https://www.youtube.com/channel/UC_xhDfkr-MXQMSeZNtdz8sQ">ムウプロYouTubeチャンネル</a>では団員がお届けするラジオ『ムウラジ』や過去の演奏動画などを公開しています。</p>
               <p>チャンネル登録や高評価をお願いします。</p>
 
-              <h3>ムウラジ</h3>
-              <iframe height="315" src="https://www.youtube.com/embed/videoseries?list=PL8F-GszF5dkQMdboxLyEN-zUrr6BSmgV5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h3 id="mu-radi">ムウラジ最新回</h3>
+              <div class="youtube-frame">
+                <iframe id="content" src="https://www.youtube.com/embed/5unOeK4DmrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <!-- 埋め込み用ムウラジプレイリスト
+                <iframe id="content" src="https://www.youtube.com/embed/videoseries?list=PL8F-GszF5dkQMdboxLyEN-zUrr6BSmgV5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            -->
               <p>団員がお届けするラジオ『<strong>ムウラジ</strong>』！</p>
               <p>ムウラジではリスナーの皆様からのお便りを募集しています。</p>
               <p>お便りは<a href="https://docs.google.com/forms/d/e/1FAIpQLSd0vkCtWC-IiURywaUHYakTWb7bw_wnl3fsNGXaNuh5K2u_pQ/viewform">コチラのフォーム</a>からお送りください！</p>
 
               <h3>演奏動画</h3>
-              <iframe height="315" src="https://www.youtube.com/embed/Gem5yTueBQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="youtube-frame">
+                <iframe id=content src="https://www.youtube.com/embed/Gem5yTueBQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
               <p>この動画の他にも<a href="https://www.youtube.com/channel/UC_xhDfkr-MXQMSeZNtdz8sQ">YouTubeチャンネル</a>では多くの演奏動画を公開中！</p>
                 <!--width="560" height="315" -->
 
@@ -169,10 +177,10 @@
         <div id="footermenu" class="inner">
 
           <ul>
-            <li><a href="index.html">ホーム<span>Home</span></a></li>
-            <li><a href="#new">お知らせ<span>Information</span></a></li>
-            <li><a href="recruit2017.pdf">ムウプロとは<span>About Mu</span></a></li>
-            <li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
+            <li><a href="index.html">ホーム <span>Home</span></a></li>
+            <li><a href="#new">お知らせ <span>Information</span></a></li>
+            <li><a href="recruit2017.pdf">ムウプロとは <span>About Mu</span></a></li>
+            <li><a href="contact.html">お問い合わせ <span>Contact</span></a></li>
           </ul>
         </div>
         <!--/#footermenu-->
