@@ -31,7 +31,7 @@ a {
 	transition: 0.2s;	/*マウスオン時の移り変わるまでの時間設定。0.2秒。*/
 }
 a:hover {
-	color: #59b9d5;			/*マウスオン時の文字色*/
+	color: #f0831e;			/*マウスオン時の文字色*/
 	text-decoration: none;	/*マウスオン時に下線を消す設定。残したいならこの１行削除。*/
 }
 
@@ -49,7 +49,7 @@ a:hover {
 /*ヘッダーブロック*/
 header {
 	height: 70px;
-	background: #59b9d5;
+	background: #221000;
 	position: relative;
 }
 /*トップページのヘッダーと、スライドショーブロック共通設定。他の端末サイズでの再設定が複数あるので変更する際は注意。*/
@@ -108,7 +108,7 @@ header #logo {
 	position:absolute;visibility: hidden;padding: 0;height: auto;
 	width: 400px;	/*ブロックの幅*/
 	border-radius: 10px;	/*角丸のサイズ*/
-	background: #59b9d5;	/*背景色*/
+	background: #221000;	/*背景色*/
 	padding: 10px;			/*ブロック内の余白*/
 	font-size: 13px;		/*文字サイズ*/
 	text-align: left;		/*文字を左よせ*/
@@ -117,7 +117,7 @@ header #logo {
 #menubar ul.ddmenu::before {
 	content: "▲";
 	font-size: 15px;
-	color: #59b9d5;
+	color: #221000;
 	position: absolute;
 	top: -18px;
 	left: 27%;
@@ -181,7 +181,7 @@ body.is-fixed #contents {
 	line-height: 1.5;
 	font-size: 40px;	/*文字サイズ*/
 	text-align: center;	/*文字をセンタリング*/
-	color: #59b9d5;		/*文字色*/
+	color: #f0831e;		/*文字色*/
 }
 /*h2タグにclass="type1"を指定した場合*/
 #contents h2.type1 {
@@ -203,10 +203,12 @@ body.is-fixed #contents {
 	margin-bottom: 20px;
 	font-size: 20px;	/*文字サイズ*/
 	border-bottom: 1px solid #ccc;
+	font-weight: bold;
 }
 /*h3タグの１文字目*/
 #contents h3::first-letter {
-	border-left: 3px solid #59b9d5;	/*左側の線の幅、線種、色*/
+	border-left: 3px solid #f0831e;	/*左側の線の幅、線種、色*/
+
 	padding-left: 20px;	/*線と文字との余白*/
 }
 /*段落タグ*/
@@ -244,10 +246,10 @@ body.is-fixed #contents {
 /*ボックス内のh4タグ設定*/
 .list h4 {
 	font-size: 28px;	/*文字サイズ*/
-	color: #59b9d5;		/*文字色*/
+	color: #f0831e;		/*文字色*/
 }
 .list h4 a {
-	color: #59b9d5;	/*リンクテキストの文字色*/
+	color: #f0831e;	/*リンクテキストの文字色*/
 }
 /*ボックス内のp(段落)タグ設定*/
 .list p {
@@ -497,7 +499,7 @@ a:hover.btn {
 footer {
 	clear: both;position: relative;z-index: 1;
 	font-size: 12px;		/*文字サイズ*/
-	background: #59b9d5;	/*背景色*/
+	background: #221000;	/*背景色*/
 	color: #fff;	/*文字色*/
 	text-align: center;
 }
@@ -557,7 +559,7 @@ footer .pr {display: block;font-size: 80%;}
 #new dt {
 	float: left;
 	width: 9em;		/*幅*/
-	color: #59b9d5;	/*文字色*/
+	color: #f0831e;	/*文字色*/
 	letter-spacing: 0.1em;
 }
 /*記事設定*/
@@ -609,7 +611,7 @@ footer .pr {display: block;font-size: 80%;}
 }
 /*質問*/
 .faq dt {
-	color: #59b9d5;	/*文字色*/
+	color: #f0831e;	/*文字色*/
 	font-weight: bold;	/*太字にする設定*/
 	background: url(../images/faq_q.png) no-repeat left center;	/*背景アイコン*/
 	padding-left: 30px;	/*背景アイコンに重ならないよう左に余白を作る*/
@@ -900,11 +902,11 @@ img.fr {float: right;width:30%;margin-left: 20px;margin-bottom: 20px;}
 }
 /*三本バーアイコン*/
 #menubar_hdr.close {
-	background: #59b9d5 url(../images/icon_menu.png) no-repeat center top/50px;	/*背景色、背景画像の読み込み、画像の上半分（３本マーク）を表示。幅は50px。*/
+	background: #221000 url(../images/icon_menu.png) no-repeat center top/50px;	/*背景色、背景画像の読み込み、画像の上半分（３本マーク）を表示。幅は50px。*/
 }
 /*閉じるアイコン*/
 #menubar_hdr.open {
-	background: #59b9d5 url(../images/icon_menu.png) no-repeat center bottom/50px;	/*背景色、背景画像の読み込み、画像の下半分（×マーク）を表示。幅は50px。*/
+	background: #221000 url(../images/icon_menu.png) no-repeat center bottom/50px;	/*背景色、背景画像の読み込み、画像の下半分（×マーク）を表示。幅は50px。*/
 }
 
 /*fixmenu設定（メニューが画面上部に到達した際のスタイル）
