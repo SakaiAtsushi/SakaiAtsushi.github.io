@@ -48,7 +48,7 @@ a:hover {
 ---------------------------------------------------------------------------*/
 /*ヘッダーブロック*/
 header {
-	height: 70px;
+	height: auto;/*70px;*/
 	background: #221000;
 	position: relative;
 }
@@ -716,7 +716,7 @@ body.is-fixed-pagetop .nav-fix-pos-pagetop a:hover {
 ul.disc {padding: 0em 25px 15px;list-style: disc;}
 .color1, .color1 a {color: #221000 !important;}
 .pr {font-size: 10px;}
-.wl {width: 96%;} 
+.wl {width: 96%;}
 .ws {width: 50%;}
 .c {text-align: center !important;}
 .r {text-align: right !important;}
