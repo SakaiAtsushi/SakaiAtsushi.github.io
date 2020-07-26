@@ -1,11 +1,9 @@
 <?php
 error_reporting (E_ALL & ~E_NOTICE & ~E_WARNING & ~E_STRICT & ~E_DEPRECATED);
 //
-$mail_sys = "glee.takeuma@gmail.com";	// 管理者のメールアドレス
-//一度僕のアドレスでテスト、本番pr@mu-project.jp
+$mail_sys = "pr@mu-project.jp";	// 管理者のメールアドレス
 $from_name = "Mu Project";	// メール送信者の表示
-$from_mail = "glee.takeuma@gmail.com";	// メール送信者のメールアドレス（返信先）
-//此処も同様 本番pr@mu-project.jp
+$from_mail = "pr@mu-project.jp";	// メール送信者のメールアドレス（返信先）
 $user_mail = "item2";	// 利用者にメールを送る場合のメールアドレス項目
 //---
 $title = "お問い合わせフォーム";
@@ -75,8 +73,8 @@ if (!$body_sys) {
 // メール本文後ろ（改行に注意）
 if (!$footer) {
 	$footer = "\n------------
-サンプル株式会社
-http://〜〜〜〜〜.com/
+Mu Project / ムウ・プロジェクト
+http://mu-project.jp/
 ------------
 ";
 }
