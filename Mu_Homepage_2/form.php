@@ -2,13 +2,15 @@
 error_reporting (E_ALL & ~E_NOTICE & ~E_WARNING & ~E_STRICT & ~E_DEPRECATED);
 //
 $mail_sys = "glee.takeuma@gmail.com";	// 管理者のメールアドレス
+//一度僕のアドレスでテスト、本番pr@mu-project.jp
 $from_name = "Mu Project";	// メール送信者の表示
 $from_mail = "glee.takeuma@gmail.com";	// メール送信者のメールアドレス（返信先）
+//此処も同様 本番pr@mu-project.jp
 $user_mail = "item2";	// 利用者にメールを送る場合のメールアドレス項目
 //---
 $title = "お問い合わせフォーム";
-$subject = "お問い合わせ有難うございます\n";
-$body = "お問い合わせ有難うございます。
+$subject = "お問い合わせありがとうございます\n";
+$body = "お問い合わせありがとうございます。
 以下の内容で承りました。
 \n";
 $subject_sys = "お問い合わせがありました\n";
